@@ -1,0 +1,68 @@
+@charset "UTF-8";  
+
+:root {
+	background-color: white;
+	font-family: "Arial", "Serif", "Mono";
+	font-size: 30px;
+	color: black;
+	}
+
+.wrap
+	--wrap-bg-color: lightsteelblue;
+	margin: 0%, 10%, 0%, 10%
+	}
+	
+.ph {
+	--ph-bg: lightgrey;
+	}
+	
+	.ph-skip: {
+		--ph-skip-bg: transparent;
+		
+	}
+	
+	.name {
+		--ph-name: transparent;
+	}
+	
+	.crumb {
+		--ph-crumb: transparent;
+		
+	}
+
+.contents {
+	--con-bg: white;
+	--con-head: lightgrey;
+	--con-foot: lightgrey;
+	}
+
+.introduction {
+	--intro-bg-color: white;
+	}
+	
+.topic {
+	--topic-bg-color: white;
+	--topic-heading-bg-color: lightgrey;
+}
+	
+
+/* Skip Links */
+
+/* Page Heading */
+
+	/* Name */
+	
+	/* Crumb */
+
+/* Contents */
+
+
+/* Intro */
+
+/* Main */
+
+	
+
+/* Footer */
+	
+	
