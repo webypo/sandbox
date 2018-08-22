@@ -7,62 +7,163 @@
 	color: black;
 	}
 
-.wrap
+/* Headings */
+h1,h2,h3,h4,h5,h6 {
+	--head-text-color: black;
+	font-family: "Fantasy", "Sans-Serif", "Mono;
+}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+
+/* Links */
+a: {}
+a:focus {}
+a:hover {}
+a:active {}
+a:visited {}
+
+/* Paragraphs */
+p {
+	text-indent: 4em;
+}
+
+/* Skip Links */
+.skip {
+	
+}
+
+.top {
+	
+}
+
+img {
+	hover: none;
+	border: none;
+}
+
+
+
+/* Wrapper */
+.wrap {
 	--wrap-bg-color: lightsteelblue;
 	margin: 0%, 10%, 0%, 10%
-	}
-	
-.ph {
-	--ph-bg: lightgrey;
-	}
-	
-	.ph-skip: {
-		--ph-skip-bg: transparent;
-		
-	}
-	
-	.name {
-		--ph-name: transparent;
-	}
-	
-	.crumb {
-		--ph-crumb: transparent;
-		
+	padding: 3em;
 	}
 
+/* Page Heading */
+.ph {
+	--ph-bg: lightgrey;
+	--ph-skip: transparent;
+	--ph-name: transparent;
+	--ph-crumb: transparent;
+	}
+
+	/* Page Name */
+	.name {
+		text-align: center;
+	}
+
+	/* Page Breadcrumb Trail */
+	.crumb {
+		text-align: center;
+	}
+
+/* Page Contents */
 .contents {
 	--con-bg: white;
 	--con-head: lightgrey;
 	--con-foot: lightgrey;
-	}
-
-.introduction {
-	--intro-bg-color: white;
-	}
-	
-.topic {
-	--topic-bg-color: white;
-	--topic-heading-bg-color: lightgrey;
+	padding: 1em;
 }
 	
+	.con-head {
+		padding: 1em;
+	}
 
-/* Skip Links */
+	.con-foot {
+		padding: 1em;
+	}
 
-/* Page Heading */
+/* Page Introduction */
+.introduction {
+	--intro-bg: white;
+	--intro--head-bg: lightgrey;
+	--intro-foot-bg: lightgrey;
+	padding: 1em;	
+}
 
-	/* Name */
+	.intro-head {
+		padding: 1em;
+	}
+
+	.intro-foot {
+		padding: 1em;
+	}
+
+/* Main Content */
+.main {
+	--main-bg: white;
+	--main-head: lightgrey;
+	--main-foot: lightgrey;
+	padding: 1em;
+}
+
+/* Topics */
+.topic {
+	background-color: white;
+	--topic-head-bg: lightgrey;
+	--topic-foot-bg: lightgrey;
+	--topic-fig: transparent;
+	padding: 1em;
+}
+
+	.topic-head {
+		padding: 1em;
+	}
+
+	.topic-foot {
+		padding: 1em;
+	}
+
+	.topic-fig {
+		padding: 1em;
+	}
+
+footer {
+	--foot-head-bg: lightgrey;
+	--foot-foot-bg: lightgrey;
+	--foot-1-bg: transparent;
+	--foot-2-bg: transparent;
+	--foot-3-bg: transparent;
+	--foot-4-bg: transparent;
+	background-color: white;
+}
 	
-	/* Crumb */
-
-/* Contents */
-
-
-/* Intro */
-
-/* Main */
-
+	.foot-head {
+		
+	}
 	
+	.foot-foot {
+		
+	}
+	
+	.foot-1 {
+		
+	}
 
-/* Footer */
-	
-	
+	.foot-2 {
+		
+	}
+
+	.foot-3 {
+		
+	}
+
+	.foot-4 {
+		
+	}
